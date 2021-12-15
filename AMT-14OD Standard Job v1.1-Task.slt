@@ -1,0 +1,23 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "AMT-14OD Standard Job v1.1-Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": true,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "QUX2LVdAIucwpOJ10w7FXfrQZ2gYQmFv",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": "AMT-14OD Standard Job v1.3",
+        "snaplex_path": "HCAProd"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

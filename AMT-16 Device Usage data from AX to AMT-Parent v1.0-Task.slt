@@ -1,0 +1,74 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "AMT-16 Device Usage data from AX to AMT-Parent v1.0-Task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "regular",
+        "llfeed_token": "Ub4fzBJ3is55wKaOl8Ua1TdChIo4vMMT",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_parameters": {
+            "ChildPipeline": "AMT-16 Device Usage data from AX to AMT-Child v1.1",
+            "dequeueActivityID": "18F2D2CE-8450-4AED-AAA2-526FF3CFC662",
+            "landingPath": "file:///K:/data/AMT16DeviceUsage/landing/"
+        },
+        "pipeline_path": "AMT-16 Device Usage data from AX to AMT-Parent v1.0",
+        "snaplex_path": "HCAProd"
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 15,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2018-09-03",
+        "start_time": "11:00:00",
+        "time_zone": "Australia/Sydney"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 15,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2018-09-03",
+        "start_time": "11:00:00",
+        "time_zone": "Australia/Sydney"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

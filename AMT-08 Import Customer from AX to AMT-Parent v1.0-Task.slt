@@ -1,0 +1,75 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "AMT-08 Import Customer from AX to AMT-Parent v1.0-Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "j4IM2U7rzt2PUvfmQ3URJBKEy9b2zZeR",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "num_instances": 1,
+        "pipeline_parameters": {
+            "ChildPipeline": "AMT-08 Import Customer from AX to AMT-Child v1.4",
+            "dequeueActivityID": "%7BFD1B40B9-12FB-4921-9B3B-9F1B2DE359F8%7D",
+            "landingPath": "file:///K:/data/AMT08CustomerDetails/landing/"
+        },
+        "pipeline_path": "AMT-08 Import Customer from AX to AMT-Parent v1.0",
+        "snaplex_path": "HCAProd"
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "days",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 1,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2018-08-30",
+        "start_time": "01:30:00",
+        "time_zone": "Australia/Sydney"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "days",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 1,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2018-08-30",
+        "start_time": "01:30:00",
+        "time_zone": "Australia/Sydney"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

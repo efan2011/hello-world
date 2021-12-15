@@ -1,0 +1,189 @@
+<WOCreate>
+  <HEADER>
+    <External_Source_Id>22374619-1</External_Source_Id>
+    <Manufacturer>HCM</Manufacturer>
+    <Model>ZX85USB-5A</Model>
+    <Serial_Number>HCMDEE90P00101576</Serial_Number>
+    <Usage_Reading>1000</Usage_Reading>
+    <Usage_UOM>HR</Usage_UOM>
+    <Work_Group_Code>Default</Work_Group_Code>
+    <Work_Location_Code />
+    <Job_Description>1000 Hour Service</Job_Description>
+    <Job_Date>20180710</Job_Date>
+    <Currency>AUD</Currency>
+    <Strategy>1</Strategy>
+    <Cost_Responsibility />
+    <Equipment_Cost_Code />
+    <Workorder_Number />
+    <Predefined_Workorder_Number />
+    <Priority>M</Priority>
+    <Status>O</Status>
+    <Component_Code>1009</Component_Code>
+    <Modifier_Code>1</Modifier_Code>
+    <Application_Code>1</Application_Code>
+    <Task_Type>PM</Task_Type>
+    <Occurrence_Type />
+    <Maintenance_Activity />
+    <Warranty>0</Warranty>
+    <Equipment_Name>VOS Earthmovers Pty Ltd ZX85USB-5A-9 101576 021937</Equipment_Name>
+    <Site_Code>400CL</Site_Code>
+    <Branch_Code>400</Branch_Code>
+    <Customer_Number>592320</Customer_Number>
+    <Created_By_Username>hoskingd</Created_By_Username>
+    <External_Backlog_ID />
+    <Equipment_No>D00021937</Equipment_No>
+    <Workorder_Completion>N</Workorder_Completion>
+    <Export_GUID />
+    <External_Identifier />
+    <Tag_Id />
+  </HEADER>
+  <SEGMENT>
+    <External_Source_Id>22374619-1</External_Source_Id>
+    <External_Seg_ID>43036505</External_Seg_ID>
+    <Job_Code>700</Job_Code>
+    <Std_Hours>5</Std_Hours>
+    <Cost_Centre />
+    <Cost_Bearer>CC</Cost_Bearer>
+    <Parts_Cost_Estimate>675.64</Parts_Cost_Estimate>
+    <Parts_Expense_Element />
+    <Parts_Transaction_Type />
+    <Parts_EDC />
+    <Parts_Debit_AC />
+    <Parts_Debit_AC_Suffix />
+    <Parts_Credit_AC />
+    <Parts_Credit_AC_Suffix />
+    <Labour_Cost_Estimate>625</Labour_Cost_Estimate>
+    <Labour_Expense_Element />
+    <Labour_Transaction_Type />
+    <Labour_EDC />
+    <Labour_Debit_AC />
+    <Labour_Debit_AC_Suffix />
+    <Labour_Credit_AC />
+    <Labour_Credit_AC_Suffix />
+    <Misc_Cost_Estimate>0</Misc_Cost_Estimate>
+    <Misc_Expense_Element />
+    <Misc_Transaction_Type />
+    <Misc_EDC />
+    <Misc_Debit_AC />
+    <Misc_Debit_AC_Suffix />
+    <Misc_Credit_AC />
+    <Misc_Credit_AC_Suffix />
+    <Labour_Indicator>F</Labour_Indicator>
+    <Component_Code>1009</Component_Code>
+    <Modifier_Code>CAB</Modifier_Code>
+    <Work_Group_Code>Default</Work_Group_Code>
+    <Job_Description>1000 Hour Service (Expense)</Job_Description>
+    <Operation_Number>1</Operation_Number>
+    <Std_Job_Reference>.1009.700.00.1........AUD.ZX85USB-5A-9.Compass Services.0.1.BST 1000 Hour Service ER10001048K ZX85USB-5A</Std_Job_Reference>
+  </SEGMENT>
+  <SEGMENT>
+    <External_Source_Id>22374619-1</External_Source_Id>
+    <External_Seg_ID>43036606</External_Seg_ID>
+    <Job_Code>999A</Job_Code>
+    <Std_Hours>0</Std_Hours>
+    <Cost_Centre />
+    <Cost_Bearer>1T</Cost_Bearer>
+    <Parts_Cost_Estimate>371.22</Parts_Cost_Estimate>
+    <Parts_Expense_Element />
+    <Parts_Transaction_Type />
+    <Parts_EDC />
+    <Parts_Debit_AC />
+    <Parts_Debit_AC_Suffix />
+    <Parts_Credit_AC />
+    <Parts_Credit_AC_Suffix />
+    <Labour_Cost_Estimate>0</Labour_Cost_Estimate>
+    <Labour_Expense_Element />
+    <Labour_Transaction_Type />
+    <Labour_EDC />
+    <Labour_Debit_AC />
+    <Labour_Debit_AC_Suffix />
+    <Labour_Credit_AC />
+    <Labour_Credit_AC_Suffix />
+    <Misc_Cost_Estimate>0</Misc_Cost_Estimate>
+    <Misc_Expense_Element />
+    <Misc_Transaction_Type />
+    <Misc_EDC />
+    <Misc_Debit_AC />
+    <Misc_Debit_AC_Suffix />
+    <Misc_Credit_AC />
+    <Misc_Credit_AC_Suffix />
+    <Labour_Indicator>S</Labour_Indicator>
+    <Component_Code>1009</Component_Code>
+    <Modifier_Code>CAB</Modifier_Code>
+    <Work_Group_Code>Default</Work_Group_Code>
+    <Job_Description>1000 Hour Service (As Required)</Job_Description>
+    <Operation_Number>2</Operation_Number>
+    <Std_Job_Reference>.1009.999A.00.1........AUD.ZX85USB-5A-9.Compass Services.0.1.BAR 1000 Hour Service ZX85USB-5A</Std_Job_Reference>
+  </SEGMENT>
+  
+  <PARTS>
+    <External_Source_Id>22374619-1</External_Source_Id>
+    <External_Seg_ID>43036505</External_Seg_ID>
+    <Source_Of_Supply>JD</Source_Of_Supply>
+    <Part_Number>TY26605</Part_Number>
+    <Part_Qty>1</Part_Qty>
+    <Parts_Required_Date>20180710</Parts_Required_Date>
+    <Part_Description>COOL GARD II TEST KIT (PK10)</Part_Description>
+    <Planned_Unit_Price>46.07</Planned_Unit_Price>
+  </PARTS>
+  <PARTS>
+    <External_Source_Id>22374619-1</External_Source_Id>
+    <External_Seg_ID>43036505</External_Seg_ID>
+    <Source_Of_Supply>PROB</Source_Of_Supply>
+    <Part_Number>OIL SAMPLE</Part_Number>
+    <Part_Qty>4</Part_Qty>
+    <Parts_Required_Date>20180710</Parts_Required_Date>
+    <Part_Description>SCHEDULE OIL ANALYSIS</Part_Description>
+    <Planned_Unit_Price>31.54</Planned_Unit_Price>
+  </PARTS>
+  <PARTS>
+    <External_Source_Id>22374619-1</External_Source_Id>
+    <External_Seg_ID>43036606</External_Seg_ID>
+    <Source_Of_Supply>HCM</Source_Of_Supply>
+    <Part_Number>129933-11310</Part_Number>
+    <Part_Qty>1</Part_Qty>
+    <Parts_Required_Date>20180710</Parts_Required_Date>
+    <Part_Description>GASKET</Part_Description>
+    <Planned_Unit_Price>95.88</Planned_Unit_Price>
+  </PARTS>
+  <PARTS>
+    <External_Source_Id>22374619-1</External_Source_Id>
+    <External_Seg_ID>43036606</External_Seg_ID>
+    <Source_Of_Supply>HCM</Source_Of_Supply>
+    <Part_Number>4612328</Part_Number>
+    <Part_Qty>1</Part_Qty>
+    <Parts_Required_Date>20180710</Parts_Required_Date>
+    <Part_Description>V BELT</Part_Description>
+    <Planned_Unit_Price>58.52</Planned_Unit_Price>
+  </PARTS>
+  <PARTS>
+    <External_Source_Id>22374619-1</External_Source_Id>
+    <External_Seg_ID>43036606</External_Seg_ID>
+    <Source_Of_Supply>HCM</Source_Of_Supply>
+    <Part_Number>YA00040185</Part_Number>
+    <Part_Qty>1</Part_Qty>
+    <Parts_Required_Date>20180710</Parts_Required_Date>
+    <Part_Description>INJECTOR CLEANER AGENT 946ml</Part_Description>
+    <Planned_Unit_Price>31.71</Planned_Unit_Price>
+  </PARTS>
+  <PARTS>
+    <External_Source_Id>22374619-1</External_Source_Id>
+    <External_Seg_ID>43036606</External_Seg_ID>
+    <Source_Of_Supply>HCM</Source_Of_Supply>
+    <Part_Number>YD00005940</Part_Number>
+    <Part_Qty>1</Part_Qty>
+    <Parts_Required_Date>20180710</Parts_Required_Date>
+    <Part_Description>BELT;FAN</Part_Description>
+    <Planned_Unit_Price>144.44</Planned_Unit_Price>
+  </PARTS>
+  <PARTS>
+    <External_Source_Id>22374619-1</External_Source_Id>
+    <External_Seg_ID>43036606</External_Seg_ID>
+    <Source_Of_Supply>JD</Source_Of_Supply>
+    <Part_Number>TY26827</Part_Number>
+    <Part_Qty>1</Part_Qty>
+    <Parts_Required_Date>20180710</Parts_Required_Date>
+    <Part_Description>FUEL-PROTECT, KEEP CLEAN 946 ML</Part_Description>
+    <Planned_Unit_Price>40.67</Planned_Unit_Price>
+  </PARTS>
+</WOCreate>

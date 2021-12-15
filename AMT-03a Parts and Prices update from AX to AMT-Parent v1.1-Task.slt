@@ -1,0 +1,74 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "AMT-03a Parts and Prices update from AX to AMT-Parent v1.1-Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "oBz6J0OIUyAkV08ZLjhJJEUDT5BkjKJm",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_parameters": {
+            "childPipeline": "AMT-03a Parts and Prices update from AX to AMT-Child v1.6",
+            "dequeueActivityID": "688ED2BB-1BB7-4EE5-9DBB-565DDD7D70F0",
+            "landingPath": "file:///K:/data/AMT03aPartsPriceUpdate/landing/"
+        },
+        "pipeline_path": "AMT-03a Parts and Prices update from AX to AMT-Parent v1.1",
+        "snaplex_path": "HCAProd"
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "days",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "2,6,10,14,18,22",
+                "minute": "30",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 1,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2018-09-04",
+        "start_time": "04:00:00",
+        "time_zone": "Australia/Sydney"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "days",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "2,6,10,14,18,22",
+                "minute": "30",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 1,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2018-09-04",
+        "start_time": "04:00:00",
+        "time_zone": "Australia/Sydney"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="us-ascii" ?>
+<WOCreate>
+  <HEADER>
+    <External_Source_Id>22320679-1</External_Source_Id>
+    <Manufacturer>HI</Manufacturer>
+    <Model>EX1200-6BH</Model>
+    <Serial_Number>HCM18J00C00001457</Serial_Number>
+    <Usage_Reading>16836</Usage_Reading>
+    <Usage_UOM>HR</Usage_UOM>
+    <Work_Group_Code>BORAL QUARRIES </Work_Group_Code>
+    <Work_Location_Code />
+    <Job_Description>Track Adjuster Cylinder RH</Job_Description>
+    <Job_Date>20180725</Job_Date>
+    <Currency>AUD</Currency>
+    <Strategy>1</Strategy>
+    <Cost_Responsibility />
+    <Equipment_Cost_Code />
+    <Workorder_Number />
+    <Predefined_Workorder_Number />
+    <Priority>M</Priority>
+    <Status>O</Status>
+    <Component_Code>2070</Component_Code>
+    <Modifier_Code>RH</Modifier_Code>
+    <Application_Code>1</Application_Code>
+    <Task_Type>CC</Task_Type>
+    <Occurrence_Type />
+    <Maintenance_Activity />
+    <Warranty>0</Warranty>
+    <Equipment_Name>Boral Pepper Tree EX1200-6BH 1457 015590</Equipment_Name>
+    <Site_Code>120K</Site_Code>
+    <Branch_Code>120</Branch_Code>
+    <Customer_Number>521730</Customer_Number>
+    <Created_By_Username>hcmappu</Created_By_Username>
+    <External_Backlog_ID />
+    <Equipment_No>D00015590</Equipment_No>
+    <Workorder_Completion>N</Workorder_Completion>
+    <Export_GUID />
+    <External_Identifier />
+    <Tag_Id />
+  </HEADER>
+  <SEGMENT>
+    <External_Source_Id>22320679-1</External_Source_Id>
+    <External_Seg_ID>42944816</External_Seg_ID>
+    <Job_Code>010</Job_Code>
+    <Std_Hours>36</Std_Hours>
+    <Cost_Centre />
+    <Cost_Bearer>CC</Cost_Bearer>
+    <Parts_Cost_Estimate>0</Parts_Cost_Estimate>
+    <Parts_Expense_Element />
+    <Parts_Transaction_Type />
+    <Parts_EDC />
+    <Parts_Debit_AC />
+    <Parts_Debit_AC_Suffix />
+    <Parts_Credit_AC />
+    <Parts_Credit_AC_Suffix />
+    <Labour_Cost_Estimate>4140</Labour_Cost_Estimate>
+    <Labour_Expense_Element />
+    <Labour_Transaction_Type />
+    <Labour_EDC />
+    <Labour_Debit_AC />
+    <Labour_Debit_AC_Suffix />
+    <Labour_Credit_AC />
+    <Labour_Credit_AC_Suffix />
+    <Misc_Cost_Estimate>0</Misc_Cost_Estimate>
+    <Misc_Expense_Element />
+    <Misc_Transaction_Type />
+    <Misc_EDC />
+    <Misc_Debit_AC />
+    <Misc_Debit_AC_Suffix />
+    <Misc_Credit_AC />
+    <Misc_Credit_AC_Suffix />
+    <Labour_Indicator>F</Labour_Indicator>
+    <Component_Code>2070</Component_Code>
+    <Modifier_Code>RH</Modifier_Code>
+    <Work_Group_Code>BORAL QUARRIES </Work_Group_Code>
+    <Job_Description>R&amp;R Track Adjuster</Job_Description>
+    <Operation_Number>1</Operation_Number>
+    <Std_Job_Reference></Std_Job_Reference>
+  </SEGMENT>
+  <SEGMENT>
+    <External_Source_Id>22320679-1</External_Source_Id>
+    <External_Seg_ID>42945341</External_Seg_ID>
+    <Job_Code>101</Job_Code>
+    <Std_Hours>0</Std_Hours>
+    <Cost_Centre />
+    <Cost_Bearer>1T</Cost_Bearer>
+    <Parts_Cost_Estimate>25155.98</Parts_Cost_Estimate>
+    <Parts_Expense_Element />
+    <Parts_Transaction_Type />
+    <Parts_EDC />
+    <Parts_Debit_AC />
+    <Parts_Debit_AC_Suffix />
+    <Parts_Credit_AC />
+    <Parts_Credit_AC_Suffix />
+    <Labour_Cost_Estimate>0</Labour_Cost_Estimate>
+    <Labour_Expense_Element />
+    <Labour_Transaction_Type />
+    <Labour_EDC />
+    <Labour_Debit_AC />
+    <Labour_Debit_AC_Suffix />
+    <Labour_Credit_AC />
+    <Labour_Credit_AC_Suffix />
+    <Misc_Cost_Estimate>0</Misc_Cost_Estimate>
+    <Misc_Expense_Element />
+    <Misc_Transaction_Type />
+    <Misc_EDC />
+    <Misc_Debit_AC />
+    <Misc_Debit_AC_Suffix />
+    <Misc_Credit_AC />
+    <Misc_Credit_AC_Suffix />
+    <Labour_Indicator>S</Labour_Indicator>
+    <Component_Code>2070</Component_Code>
+    <Modifier_Code>RH</Modifier_Code>
+    <Work_Group_Code>BORAL QUARRIES </Work_Group_Code>
+    <Job_Description>Supply NEW Component</Job_Description>
+    <Operation_Number>2</Operation_Number>
+    <Std_Job_Reference></Std_Job_Reference>
+  </SEGMENT>
+  <PARTS>
+    <External_Source_Id>22320679-1</External_Source_Id>
+    <External_Seg_ID>42944816</External_Seg_ID>
+    <Source_Of_Supply>HCM</Source_Of_Supply>
+    <Part_Number>4506418</Part_Number>
+    <Part_Qty>2</Part_Qty>
+    <Parts_Required_Date>20180725</Parts_Required_Date>
+    <Part_Description>O'RING</Part_Description>
+    <Planned_Unit_Price>0</Planned_Unit_Price>
+  </PARTS>
+  <PARTS>
+    <External_Source_Id>22320679-1</External_Source_Id>
+    <External_Seg_ID>42944816</External_Seg_ID>
+    <Source_Of_Supply>HCM</Source_Of_Supply>
+    <Part_Number>4333469</Part_Number>
+    <Part_Qty>2</Part_Qty>
+    <Parts_Required_Date>20180725</Parts_Required_Date>
+    <Part_Description>HYDRAULIC FILTER</Part_Description>
+    <Planned_Unit_Price>0</Planned_Unit_Price>
+  </PARTS>
+  <PARTS>
+    <External_Source_Id>22320679-1</External_Source_Id>
+    <External_Seg_ID>42944816</External_Seg_ID>
+    <Source_Of_Supply>DON</Source_Of_Supply>
+    <Part_Number>P553000</Part_Number>
+    <Part_Qty>2</Part_Qty>
+    <Parts_Required_Date>20180725</Parts_Required_Date>
+    <Part_Description>LUBE FILTER</Part_Description>
+    <Planned_Unit_Price>0</Planned_Unit_Price>
+  </PARTS>
+  
+  <PARTS>
+    <External_Source_Id>22320679-1</External_Source_Id>
+    <External_Seg_ID>42945341</External_Seg_ID>
+    <Source_Of_Supply>HCM</Source_Of_Supply>
+    <Part_Number>9271451</Part_Number>
+    <Part_Qty>1</Part_Qty>
+    <Parts_Required_Date>20180725</Parts_Required_Date>
+    <Part_Description>TRACK ADJUSTER ASSY</Part_Description>
+    <Planned_Unit_Price>25155.98</Planned_Unit_Price>
+  </PARTS>
+</WOCreate>

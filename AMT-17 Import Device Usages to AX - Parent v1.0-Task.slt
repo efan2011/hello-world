@@ -1,0 +1,73 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "AMT-17 Import Device Usages to AX - Parent v1.0-Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "NlebZhq0umNt2jtstNEfzquQXJUxC9Kl",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_parameters": {
+            "ChildPipeline": "AMT-17 Device Usage Data from AMT to AX Child 3.1",
+            "SourcePath": "file:///K:/data/AMT17DeviceUsage/AMT17Source/"
+        },
+        "pipeline_path": "AMT-17 Import Device Usages to AX - Parent v1.0",
+        "snaplex_path": "HCAProd"
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 5,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2018-08-23",
+        "start_time": "16:53:14",
+        "time_zone": "Australia/Sydney"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 5,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2018-08-23",
+        "start_time": "16:53:14",
+        "time_zone": "Australia/Sydney"
+    },
+    "trigger_type": "ScheduleTrigger"
+}

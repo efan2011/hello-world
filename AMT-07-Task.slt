@@ -1,0 +1,27 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "AMT-07-Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": true,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "ns3WvEutslCsjoYzNGyW4oChFNZhHVSe",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_parameters": {
+            "destination_url": "https://hcacpl-prod.operations.dynamics.com",
+            "incomingSchema": "WO_CREATE_10-Jul-2018_113239_223746191 (1).xml"
+        },
+        "pipeline_path": "AMT-07 - Service Work Order from AMT v1.10",
+        "snaplex_path": "HCAProd"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

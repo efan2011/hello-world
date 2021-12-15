@@ -1,0 +1,74 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "AMT-01 Work Order Settlement Parent v1.0- 5 Mins Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "eh7RLQjfpQfNm8P2JFvEBj63qjoP3Z7W",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "num_instances": 1,
+        "pipeline_parameters": {
+            "dequeueActivityID": "04C6FFD0-5342-4F33-85C2-057CEA01C147",
+            "landingPath": "file:///K:/data/AMT01ServiceOrderSummary/landing/"
+        },
+        "pipeline_path": "AMT-01 Work Order Settlement Parent v1.0",
+        "snaplex_path": "HCAProd"
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 10,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2019-09-25",
+        "start_time": "19:24:53",
+        "time_zone": "Australia/Sydney"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 10,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2019-09-25",
+        "start_time": "19:24:53",
+        "time_zone": "Australia/Sydney"
+    },
+    "trigger_type": "ScheduleTrigger"
+}
